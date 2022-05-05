@@ -1,0 +1,43 @@
+﻿/************************************************************************************************
+ SITE WEB
+************************************************************************************************/
+
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #200505;
+	margin: 20;
+	color: rgb(0, 255, 170);
+	font-family: Arial, Helvetica, sans-serif;
+}
+#A0_0 {
+	width:  50px;
+	height: 50px;
+	background-image: url("01.png");
+}
+
+#A0_1 {
+	width:  50px;
+	height: 50px;
+	background-image: url("02.png");
+}
+#A0_2 {
+	width:  50px;
+	height: 50px;
+	background-image: url("03.png");
+}
+#A0_3 {
+	width:  50px;
+	height: 50px;
+	background-image: url("04.png");
+}
+#A0_14 {
+	width:  50px;
+	height: 50px;
+	background-image: url("15.png");
+}
+#A0_15 {
+	width:  50px;
+	height: 50px;
+	background-image: url("16.png");
+}
