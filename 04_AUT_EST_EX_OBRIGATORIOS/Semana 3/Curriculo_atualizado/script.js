@@ -1,21 +1,8 @@
-const http = require('http');
-const fs   = require("fs")
+const express = require('express');
 const hostname = '127.0.0.1';
 const port = 3031;
-const server = http.createServer((req, res) => {
-  script.js.use(express.static('C:/Users/prisc/OneDrive/Documentos/GitHub/modulo2/04_AUT_EST_EX_OBRIGATORIOS/Semana 3/public'));
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/html');
-  fs.readFile('C:/Users/prisc/OneDrive/Documentos/GitHub/modulo2/04_AUT_EST_EX_OBRIGATORIOS/Semana 3/Curriculo_atualizado/curriculo.html' , null, function (error, data) {
-      if (error) {
-          res.writeHead(404);
-          res.write('Whoops! File not found!');
-      } else {
-          res.write(data);
-      }
-      res.end();
-  });
-});
-server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
-});
+const app = express();
+
+ app.use(express.static("static"));
+ app.listen(port, hostname, () => {
+  console.log(`Server running at http://${hostname}:${port}/`);)};

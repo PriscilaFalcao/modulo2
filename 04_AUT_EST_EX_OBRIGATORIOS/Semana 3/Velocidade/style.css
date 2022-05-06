@@ -1,0 +1,25 @@
+h1{
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: cornflowerblue;
+    text-align: center;
+}
+div{
+    background-color: bisque;
+}
+
+body{
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+#calcular{
+    background-color: cornflowerblue;
+    color: blanchedalmond;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+}
