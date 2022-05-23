@@ -1,0 +1,21 @@
+body{
+    background-color: rgba(255, 127, 80, 0.562);
+}
+h1{
+    color: aqua;
+    background-color: coral;
+    text-align: center;
+    padding: 1em;
+}
+
+h2{
+    color: aquamarine;
+    background-color: coral;
+}
+
+.btn{
+    background-color: aquamarine;
+    padding: 0.5em;
+    font-weight: 500;
+    margin-top: 2em;
+}
