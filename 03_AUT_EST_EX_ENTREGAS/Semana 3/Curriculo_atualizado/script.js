@@ -4,5 +4,4 @@ const port = 3031;
 const app = express();
 
  app.use(express.static("static"));
- app.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);)};
+ app.listen(port, hostname, () => console.log(`Server running at http://${hostname}:${port}/`));
