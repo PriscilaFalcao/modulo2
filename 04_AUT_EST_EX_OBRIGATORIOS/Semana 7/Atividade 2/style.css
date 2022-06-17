@@ -1,0 +1,18 @@
+body{
+    background-color: rgba(100, 148, 237, 0.507);
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: crimson;
+    position: relative;
+    text-align: center;
+}
+
+button{
+    background-color: rgba(220, 20, 60, 0.434);
+    margin-top: 2vh;
+}
+button:hover{
+    background-color: rgba(255, 127, 80, 0.587);
+}

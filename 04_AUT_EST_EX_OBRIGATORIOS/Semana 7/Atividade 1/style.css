@@ -1,0 +1,25 @@
+body{
+    background-color: rgba(220, 20, 60, 0.228);
+}
+
+h1{
+    position: relative;
+    align-self: center;
+    color: cornflowerblue;
+}
+
+p{
+    font-weight: 600;
+    color: cornflowerblue;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+}
+
+button{
+    color: crimson;
+    margin-right: 2rem;
+}

@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(210, 226, 255);
+    color: crimson;
+    font-family:'Arial Narrow Bold', sans-serif;
+    margin: 0%;
+}
+
+button{
+    color: crimson;
+}
+
+div{
+    background-color: cornflowerblue;
+    padding: 2vh 2vw;
+    margin: 0%;
+}
